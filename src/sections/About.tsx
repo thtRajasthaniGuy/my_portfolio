@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const About = () => {
-
   return (
     <section className="py-32 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="mb-16">
-          <span className="text-sm font-medium text-gray-400 tracking-widest uppercase mb-4 block">About</span>
+          <span className="text-sm font-medium text-gray-400 tracking-widest uppercase mb-4 block">
+            About
+          </span>
           <h2 className="text-4xl md:text-6xl font-light mb-12 leading-tight tracking-tight">
             Building digital solutions with precision and creativity
           </h2>
@@ -14,17 +15,21 @@ const About = () => {
         <div className="grid md:grid-cols-1 gap-16">
           <div className="space-y-8 text-lg text-gray-600 leading-relaxed font-light">
             <p>
-              I'm a passionate full-stack developer with over 5 years of experience 
-              creating digital products that blend functionality with elegant design.
+              Hi, I’m Govind Maheshwari, a Frontend-focused Software Developer
+              with 6 years of experience building scalable web and mobile
+              applications.
             </p>
             <p>
-              My expertise spans modern web technologies, from React and TypeScript 
-              on the frontend to Node.js and Python on the backend. I believe in 
-              writing clean, maintainable code and creating intuitive user experiences.
+              I specialize in React.js and React Native, crafting smooth,
+              modern, and user-friendly interfaces. On the backend, I work with
+              Node.js and MongoDB to create reliable APIs and database
+              solutions. 💡 I enjoy turning complex ideas into simple, elegant
+              user experiences and writing clean, maintainable code that scales
+              with projects.
             </p>
             <p>
-              When I'm not coding, I contribute to open source projects, write technical 
-              articles, and mentor aspiring developers in the community.
+              Outside of work, I enjoy traveling, and experiencing new
+              adventures that spark creativity.
             </p>
           </div>
           {/* <div className="space-y-8">

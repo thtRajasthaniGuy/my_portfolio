@@ -28,16 +28,16 @@ const Hero = () => {
           Passionate about building scalable applications that make a difference.
         </p>
         <div className="flex gap-8 justify-center items-center">
-          <a href="mailto:alex@example.com" className="p-4 border border-gray-200 rounded-full hover:bg-black hover:text-white transition-all duration-300 group">
+          <a href="govind302034@gmail.com" className="p-4 border border-gray-200 rounded-full hover:bg-black hover:text-white transition-all duration-300 group">
             <Mail className="w-6 h-6" />
           </a>
-          <a href="https://linkedin.com" className="p-4 border border-gray-200 rounded-full hover:bg-black hover:text-white transition-all duration-300 group">
+          <a href="https://www.linkedin.com/in/gmaheshwari96/" className="p-4 border border-gray-200 rounded-full hover:bg-black hover:text-white transition-all duration-300 group">
             <Linkedin className="w-6 h-6" />
           </a>
-          <a href="https://github.com" className="p-4 border border-gray-200 rounded-full hover:bg-black hover:text-white transition-all duration-300 group">
+          <a href="https://github.com/thtRajasthaniGuy" className="p-4 border border-gray-200 rounded-full hover:bg-black hover:text-white transition-all duration-300 group">
             <Github className="w-6 h-6" />
           </a>
-          <a href="https://twitter.com" className="p-4 border border-gray-200 rounded-full hover:bg-black hover:text-white transition-all duration-300 group">
+          <a href="https://x.com/thRajasthaniGuy" className="p-4 border border-gray-200 rounded-full hover:bg-black hover:text-white transition-all duration-300 group">
             <Twitter className="w-6 h-6" />
           </a>
         </div>

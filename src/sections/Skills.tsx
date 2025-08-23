@@ -2,18 +2,13 @@ import React from 'react';
 
 const Skills = () => {
   const skills = [
+    { name: 'React Native', icon: '⚛️' },
     { name: 'React', icon: '⚛️' },
     { name: 'TypeScript', icon: '🔷' },
     { name: 'Node.js', icon: '🟢' },
-    { name: 'Python', icon: '🐍' },
-    { name: 'PostgreSQL', icon: '🐘' },
-    { name: 'AWS', icon: '☁️' },
-    { name: 'Docker', icon: '🐳' },
-    { name: 'GraphQL', icon: '🔗' },
-    { name: 'Next.js', icon: '▲' },
     { name: 'MongoDB', icon: '🍃' },
-    { name: 'Redis', icon: '🔴' },
-    { name: 'Git', icon: '📦' }
+    { name: 'Git', icon: '📦' },
+    {name:'Redux',icon:'⚛️'}
   ];
 
   return (

@@ -19,26 +19,13 @@ const Contact = () => {
         <div className="text-center space-y-8">
           <div className="space-y-4">
             <div className="text-lg font-medium">Get in touch</div>
-            <div className="text-gray-600 font-light">alex@example.com</div>
+            <div className="text-gray-600 font-light">govind302034@gmail.com</div>
           </div>  
           <div className="space-y-4">
             <div className="text-lg font-medium">Location</div>
-            <div className="text-gray-600 font-light">San Francisco, CA</div>
+            <div className="text-gray-600 font-light">India</div>
           </div>
-          <div className="flex gap-6 justify-center pt-8">
-            <a href="https://github.com" className="p-4 border border-gray-200 rounded-full hover:bg-black hover:text-white transition-all duration-300">
-              <Github className="w-5 h-5" />
-            </a>
-            <a href="https://linkedin.com" className="p-4 border border-gray-200 rounded-full hover:bg-black hover:text-white transition-all duration-300">
-              <Linkedin className="w-5 h-5" />
-            </a>
-            <a href="https://twitter.com" className="p-4 border border-gray-200 rounded-full hover:bg-black hover:text-white transition-all duration-300">
-              <Twitter className="w-5 h-5" />
-            </a>
-            <a href="mailto:alex@example.com" className="p-4 border border-gray-200 rounded-full hover:bg-black hover:text-white transition-all duration-300">
-              <Mail className="w-5 h-5" />
-            </a>
-          </div>
+        
         </div>
       </div>
     </section>
