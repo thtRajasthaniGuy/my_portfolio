@@ -11,8 +11,6 @@ const Hero = () => {
               src={profileImage}
               alt="Alex Johnson"
               className="w-full h-full rounded-full object-cover border-4 border-white shadow-lg group-hover:shadow-xl transition-all duration-300"
-             onError={(e) => console.log('Image failed to load:', e)}
-  onLoad={() => console.log('Image loaded successfully')}
             />
            
           </div>
@@ -28,7 +26,7 @@ const Hero = () => {
           Passionate about building scalable applications that make a difference.
         </p>
         <div className="flex gap-8 justify-center items-center">
-          <a href="govind302034@gmail.com" className="p-4 border border-gray-200 rounded-full hover:bg-black hover:text-white transition-all duration-300 group">
+          <a href="mailto:govind302034@gmail.com"  className="p-4 border border-gray-200 rounded-full hover:bg-black hover:text-white transition-all duration-300 group">
             <Mail className="w-6 h-6" />
           </a>
           <a href="https://www.linkedin.com/in/gmaheshwari96/" className="p-4 border border-gray-200 rounded-full hover:bg-black hover:text-white transition-all duration-300 group">
