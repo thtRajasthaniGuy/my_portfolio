@@ -22,7 +22,7 @@ const Experience = () => {
     },
     {
       role: "Junior Software Developer",
-      company: "InTimeTec",
+      company: "DarkBears",
       period: "2019 - 2021",
       //description: "Developed multiple client projects focusing on React.js and React Native applications."
     }
