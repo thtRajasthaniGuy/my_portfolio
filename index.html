@@ -2,12 +2,220 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-   <link rel="icon" type="image/png" href="../src/assets/mine_linkdkn.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Govind Maheshwari</title>
+    <title>Govind Maheshwari — Software Engineer</title>
+    <meta
+      name="description"
+      content="Govind Maheshwari, Software Engineer II specializing in React and React Native."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-white text-black dark:bg-black dark:text-white">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+  <body>
+    <main class="wrap">
+      <!-- ============ HERO ============ -->
+      <section class="hero">
+        <h1 class="name">Govind Maheshwari</h1>
+        <p class="role">Software Engineer&nbsp;II</p>
+
+        <div class="socials">
+          <a
+            href="mailto:govind302034@gmail.com"
+            onclick="return handleEmailClick(event);"
+            class="icon-btn"
+            aria-label="Email"
+            title="Email"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+            >
+              <path
+                d="M3 6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6Z"
+              />
+              <path d="m3 6 9 7 9-7" />
+            </svg>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/govindmaheshwari96/"
+            target="_blank"
+            rel="noopener"
+            class="icon-btn"
+            aria-label="LinkedIn"
+            title="LinkedIn"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+            >
+              <rect x="3" y="3" width="18" height="18" rx="3" />
+              <path d="M7 10v7" />
+              <path d="M7 7v.01" />
+              <path d="M11 17v-4a2 2 0 0 1 4 0v4" />
+              <path d="M11 10v7" />
+            </svg>
+          </a>
+          <a
+            href="https://github.com/thtRajasthaniGuy"
+            target="_blank"
+            rel="noopener"
+            class="icon-btn"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+            >
+              <path
+                d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.93.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.37.2 2.39.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.94.36.32.68.94.68 1.9v2.82c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://hashnode.com/@thtRajasthaniGuy"
+            target="_blank"
+            rel="noopener"
+            class="icon-btn"
+            aria-label="Hashnode"
+            title="Hashnode"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+            >
+              <path
+                d="m12 2 8.5 8.5a5 5 0 0 1 0 7L18 20l-2.5-2.5a5 5 0 0 1 0-7L18 8"
+              />
+              <circle cx="12" cy="12" r="2" />
+            </svg>
+          </a>
+          <a
+            href="https://x.com/thRajasthaniGuy"
+            target="_blank"
+            rel="noopener"
+            class="icon-btn"
+            aria-label="X"
+            title="X"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+            >
+              <path d="M4 4l16 16M20 4 4 20" />
+            </svg>
+          </a>
+        </div>
+
+        <a
+          href="https://drive.google.com/file/d/1_msarKBK7P-rfxmxXYZL_IcXxtLXMuLH/view?usp=sharing"
+          target="_blank"
+          rel="noopener"
+          class="cv-btn"
+          >Download CV</a
+        >
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section class="section">
+        <h2 class="section-title">About</h2>
+        <p class="about-text">
+          I'm a Software Engineer&nbsp;II with 7 years of experience
+          specializing in the React ecosystem. Most of my work centers around
+          building robust, scalable applications — with deep expertise in mobile
+          development using React&nbsp;Native. Lately, I've also been exploring
+          on-device local LLMs in mobile apps, figuring out how far AI can run
+          without ever touching a server.
+        </p>
+      </section>
+
+      <!-- ============ SKILLS ============ -->
+      <section class="section">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills-list">
+          <li>React Native</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Zustand</li>
+        </ul>
+      </section>
+
+      <!-- ============ EXPERIENCE ============ -->
+      <section class="section">
+        <h2 class="section-title">Experience</h2>
+        <ul class="exp-list">
+          <li class="exp-item">
+            <div class="exp-top">
+              <span class="exp-role">Senior Software Developer</span>
+              <span class="exp-period">2025 — Present</span>
+            </div>
+            <span class="exp-company">AU Small Finance Bank</span>
+          </li>
+          <li class="exp-item">
+            <div class="exp-top">
+              <span class="exp-role">Senior Software Developer</span>
+              <span class="exp-period">2022 — 2025</span>
+            </div>
+            <span class="exp-company">InTimeTec</span>
+          </li>
+          <li class="exp-item">
+            <div class="exp-top">
+              <span class="exp-role">Software Developer</span>
+              <span class="exp-period">2021 — 2022</span>
+            </div>
+            <span class="exp-company">The NineHertz</span>
+          </li>
+          <li class="exp-item">
+            <div class="exp-top">
+              <span class="exp-role">Junior Software Developer</span>
+              <span class="exp-period">2019 — 2021</span>
+            </div>
+            <span class="exp-company">DarkBears</span>
+          </li>
+        </ul>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Govind Maheshwari</p>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script>
+      function handleEmailClick(e) {
+        e.preventDefault();
+        const timer = setTimeout(function () {
+          window.open(
+            "https://mail.google.com/mail/?view=cm&fs=1&to=govind302034@gmail.com",
+            "_blank",
+          );
+        }, 600);
+        window.addEventListener("blur", function onBlur() {
+          clearTimeout(timer);
+          window.removeEventListener("blur", onBlur);
+        });
+        window.location.href = "mailto:govind302034@gmail.com";
+      }
+    </script>
   </body>
 </html>
