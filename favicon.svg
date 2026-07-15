@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect
+    x="2"
+    y="2"
+    width="60"
+    height="60"
+    rx="14"
+    fill="#1F1B16"
+  />
+
+  <text
+    x="50%"
+    y="52%"
+    dominant-baseline="middle"
+    text-anchor="middle"
+    font-family="Inter, Arial, Helvetica, sans-serif"
+    font-size="24"
+    font-weight="700"
+    fill="#FAF8F5"
+  >
+    GM
+  </text>
+</svg>
